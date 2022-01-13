@@ -1,0 +1,81 @@
+.notif{
+    cursor: pointer;
+    fill: rgb(175, 175, 179);
+}
+
+.box1{
+ display: flex;
+ justify-content: flex-end;
+}
+.container{
+    height: auto;
+    width: 70%;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+.pending{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.text{
+    padding: 1rem;
+    margin-right: 27rem;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.pending{
+    width: 50%;
+    height: 50%;
+}
+.blue{
+    color: #4793F5;
+    margin-right: 10px;
+    border-radius: 40%;
+    height: 25%;
+    width:20%;
+    outline: none;
+    background: none;
+    background-color: #add3fa;
+    border: none;
+    text-align: center;
+}
+.black{
+    background: none;
+    height: 25%;
+    width:40%;
+    border-radius: 30%;
+    outline: none;
+    border: none;
+    background-color: rgb(170, 168, 168);
+    text-align: center;
+    margin-right: 30px;
+}
+.blue:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.black:hover{
+    background-color: rgb(121, 116, 116) ;
+    cursor: pointer;
+}
+
+.enclosing-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.buttons{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: -700px;
+}
+
+.seeAllDiv{
+    
+}

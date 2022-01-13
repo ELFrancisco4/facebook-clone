@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F2F5;
+    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.headerText {
+    color: #1877F2;
+    font-size: 40px;
+}
+
+.loginBtn {
+    background-color: #1877F2;
+    width: 390px;
+    border: none;
+    outline: none;
+    height: 50px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+    background-color: #186ddb;
+}
+
+.createAccountBtn {
+    background-color: #42B72A;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.createAccountBtn:hover {
+    cursor: pointer;
+    background-color: #389924;
+}
+
+.login {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 400px;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px 2px #ccc;
+    margin-top: 5%;
+}
+
+.input {
+    border-radius: 5px;
+    background-color: white;
+    width: 350px;
+    height: 20px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    padding: 1rem;
+    font-size: 20px;
+    border: solid 1px #EAECEF;
+    align-self: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:active {
+    color: #1877F2;
+}
+
+.recentLogin {
+    text-align: start;
+}
+
+.accountBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    align-content: center;
+    margin-right: 30%;
+}
+
+.loginText {
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+.account {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 10px;
+    width: 160px;
+}
+
+.account:hover {
+    box-shadow: 1px 1px 5px 2px #ccc;
+    cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+    .container{
+        max-width: 500px;
+        flex-direction: column-reverse;
+        align-content: center;
+        position: fixed;
+    }
+    .recentLogin{
+       max-width: 80%;
+       margin-left: 30%;
+       margin-top: 50%;
+       text-align: center;
+    }
+    .login{
+        margin-left: 10%;
+        margin-bottom: 50%;
+        height: 550px;
+    }
+    .accountBox{
+        margin-left: inherit;
+        margin-right: 0;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 1280px) {
+    
+}
