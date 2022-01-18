@@ -1,0 +1,44 @@
+
+.container{
+    border: solid 3px green;
+    width: 40%;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+/* ***********SVG Styles*********** */
+
+.settings{
+    background-color: #E4E6EB;
+    border-radius: 50%;
+    height: 60px;
+    width: 50px;
+}
+.settingsSvg{
+    align-self: center;
+    margin-top: 10%;
+}
+.group{
+    background-color: #1877F2;
+    border-radius: 50%;
+}
+.svgContainer{
+    display: flex;
+    border: solid 3px pink;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 1rem;
+}
+.svgContainer:hover{
+    background-color: #ccc;
+}

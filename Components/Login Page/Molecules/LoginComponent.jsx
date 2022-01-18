@@ -38,8 +38,8 @@ function LoginComponent() {
           <h5>Click your picture or add an account</h5>
         </div>
         <div className={styles.accountBox}>
-          <AccountComponent componentClass={styles.account}>
-            <p>Francis</p>
+          <AccountComponent children={'Francis'} componentClass={styles.account}>
+            
           </AccountComponent>
           <CreateAccountComponent />
         </div>
