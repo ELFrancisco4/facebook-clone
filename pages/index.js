@@ -20,7 +20,7 @@ const Home = () => {
    {/* <UserFriendsComponent/>  */}
       {/* <FriendComponent/>  */}
      {/* <AccountComponent/> */}
-      <FriendNavComponent/> 
+      <UserFriendsComponent/>
      
     </div>
   );

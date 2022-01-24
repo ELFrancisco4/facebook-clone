@@ -12,7 +12,6 @@ function FriendComponent() {
         <div className={styles.username}>
           {" "}
           <UserNameComponent textClass={styles.headerText}>Friend</UserNameComponent>
-        
         </div>
         <ButtonComponent buttonClass={styles.add}>Add Friend</ButtonComponent>
         <ButtonComponent buttonClass={styles.remove}>Remove</ButtonComponent>
